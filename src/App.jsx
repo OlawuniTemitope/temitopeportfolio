@@ -19,15 +19,15 @@ const App = () => {
             <Hero />
           </section>
       </Suspense>
-      <Suspense fallback={"loading..."}>
+      <Suspense >
           <section id="#services">
             <Services />
           </section>{" "}
       </Suspense>
-      <Suspense fallback={"loading..."}>
+      <Suspense >
           <Portfolio />
       </Suspense>
-      <Suspense fallback={"loading..."}>
+      <Suspense >
           <section id="#contact">
             <Contact />
           </section>{" "}
